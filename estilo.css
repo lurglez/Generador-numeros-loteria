@@ -1,0 +1,32 @@
+#final{
+    width: 79px;
+    height: 80px;
+    background: url(bola_numeros.png) no-repeat;
+    background-size: 70px;
+    background-position: 15%;
+    font-size: 50px;
+    
+}
+
+#reintegro{
+    width: 79px;
+    height: 80px;
+    background: url(bola_especial.png) no-repeat;
+    background-size: 70px;
+    background-position: 15%;
+    font-size: 50px;
+}
+
+body{ width: 70%; margin-left: 30%;}
+h1{ width: 50%; text-align: center; }
+
+.formulario{ width: 50%; text-align: center;}
+
+h2{  width: 42%;
+    text-align: center;
+    margin-left: 5%;}
+
+table{
+    background-color: white;
+    margin-left: 6%;
+}

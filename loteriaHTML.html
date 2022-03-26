@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="estilo.css" rel="stylesheet">
+    <script src="loteria.js" type="text/javascript"></script>
+    <title>EJERCICIO LOTERÍA</title>
+</head>
+<body>
+	<h1>¡Haz tu boleto!</h1>
+   <div class="formulario">
+    <p>Número de combinaciones: <br>
+        <input type="number" name="combi" id="combi" min="0" ></p>
+    <label for="juego">Escoge un juego:</label>	<br>
+        <select name="menu" id="menu" size="4" multiple>
+            <option value="1">La Primitiva</option>
+            <option value="2">El Gordo</option>
+            <option value="3">El Euromillón</option>
+            <option value="4">La Bonoloto</option>
+        </select><br><br>
+    <button type="reset" value="borrar" id="borrar">Borrar juegos</button>
+    </div>
+    <!--Lugar donde irá el resultado-->
+     <div id="solucion" style="text-align: center;"></div>
+</body>
+
+</html>
